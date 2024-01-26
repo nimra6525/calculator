@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.Calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(75, 74, 74);
+    color: white;
+    padding: 20px;
+    border: 10px;
+}
+
+#inputbox {
+    grid-column: span 4;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+    background: transparent;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: gray;
+    
+}
+#clr{
+    background-color:green;
+}
